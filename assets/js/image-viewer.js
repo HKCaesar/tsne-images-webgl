@@ -97,6 +97,12 @@
     welcome.style.opacity = 0;
   })
 
+  window.addEventListener('keydown', function(e) {
+    if (e.keyCode === 82) {
+      controls.reset()
+    }
+  })
+
   /**
   * Initialize
   **/
